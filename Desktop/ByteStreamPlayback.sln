@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ByteStreamPlayback", "ByteStreamPlayback.vcproj", "{500634E0-0C94-4DEB-A714-4271163D6964}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestHarness", "TestHarness\TestHarness.vcproj", "{96AF8F34-3046-49FC-BA85-523CE73A4BFC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{500634E0-0C94-4DEB-A714-4271163D6964} = {500634E0-0C94-4DEB-A714-4271163D6964}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{500634E0-0C94-4DEB-A714-4271163D6964}.Debug|Win32.ActiveCfg = Debug|Win32
+		{500634E0-0C94-4DEB-A714-4271163D6964}.Debug|Win32.Build.0 = Debug|Win32
+		{500634E0-0C94-4DEB-A714-4271163D6964}.Release|Win32.ActiveCfg = Release|Win32
+		{500634E0-0C94-4DEB-A714-4271163D6964}.Release|Win32.Build.0 = Release|Win32
+		{96AF8F34-3046-49FC-BA85-523CE73A4BFC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{96AF8F34-3046-49FC-BA85-523CE73A4BFC}.Debug|Win32.Build.0 = Debug|Win32
+		{96AF8F34-3046-49FC-BA85-523CE73A4BFC}.Release|Win32.ActiveCfg = Release|Win32
+		{96AF8F34-3046-49FC-BA85-523CE73A4BFC}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
